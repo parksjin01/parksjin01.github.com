@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Damotorie"
+title                    : "Damotorie의 공부, 개발 삽질기"
 title_separator          : "-"
 name                     : "Damotorie"
 description              : "Damotorie personal blog (오늘 공부한 내용등등을 올리는 개인 블로그...)"
@@ -105,13 +105,13 @@ analytics:
 author:
   name             : "Damotorie"
   avatar           : "https://github.com/parksjin01/parksjin01.github.com/blob/master/profile.jpg?raw=true"
-  bio              : "코딩노예"
+  bio              : "공부하고 개발하는 시간중 80% 이상을 삽질하는데 사용하는 개발자"
   location         : "South Korea, Anyang"
   email            : "parksjin01@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:parksjin01@gmail.com
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: mailto:parksjin01@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/parksjin01"
