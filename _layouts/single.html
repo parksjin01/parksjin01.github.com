@@ -33,19 +33,6 @@ layout: default
         </header>
       {% endunless %}
 
-      <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- 댓글 밑 광고 -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-4395892275206168"
-           data-ad-slot="7468109483"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
@@ -58,6 +45,19 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+
+      <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 댓글 밑 광고 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-4395892275206168"
+           data-ad-slot="7468109483"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
