@@ -23,6 +23,19 @@
       {{ content }}
     </div>
 
+    <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- 댓글 밑 광고 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4395892275206168"
+         data-ad-slot="7468109483"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
