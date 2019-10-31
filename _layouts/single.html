@@ -58,18 +58,6 @@ layout: default
         {% endif %}
       </footer>
 
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- 댓글 밑 광고 -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-4395892275206168"
-           data-ad-slot="7468109483"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
@@ -79,6 +67,18 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- 댓글 밑 광고 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-4395892275206168"
+       data-ad-slot="7468109483"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
